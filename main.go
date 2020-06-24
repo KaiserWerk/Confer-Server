@@ -56,7 +56,7 @@ func main() {
 		close(done)
 	}()
 
-
+	fmt.Println("Server started...")
 	if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 		fmt.Printf("server error: %v\n", err.Error())
 	}
