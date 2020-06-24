@@ -22,3 +22,5 @@ name) will return the content of the requested file.
 A ``PUT`` request containing a `requestedFile struct` (containing both file 
 name and new file content) will save the supplied content to file, 
 effectively overwriting its existing content.
+
+Could be the base for some malicious software :)
