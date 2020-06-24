@@ -19,7 +19,7 @@ Now, the listener is running and accepts requests for the path ``/file``.
 A ``POST`` request containing a ``requestedFile`` struct (just with the file 
 name) will return the content of the requested file.
 
-A ``PUT`` request containing a `requestedFile struct` (containing both file 
+A ``PUT`` request containing a ``requestedFile`` struct (containing both file 
 name and new file content) will save the supplied content to file, 
 effectively overwriting its existing content.
 
