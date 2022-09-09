@@ -1,5 +1,7 @@
 # Confer Server
 
+Disclaimer: this was an exercise :=)
+
 Confer allows you to edit multiple ASCII files on your remote servers with a
 central UI. Confer Server is the server component of Confer. You can find 
 the Client component [here](https://github.com/KaiserWerk/Confer-Client)
